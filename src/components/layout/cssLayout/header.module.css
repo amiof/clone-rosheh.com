@@ -1,0 +1,62 @@
+.Container {
+  max-width: 1222px;
+  height: 105px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.divider{
+  /* border-bottom: 1px solid #e4e4e4; */
+  box-shadow:5px 4px 4px silver;
+  height: 1px;
+  width: 100vw;
+}
+/* @font-face { */
+/*   font-family: "Rosheh"; */
+/*   src: */
+/*     url("https://rosheh.com/wp-content/themes/woodmart/fonts/woodmart-font.woff2?v=6.2.4.1") format("woff2"); */
+/* } */
+img {
+  width: 150px;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+li {
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: Rosheh;
+}
+.rotate {
+  rotate: 180deg;
+  display: inline-block;
+  margin: auto;
+}
+.icons {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.number {
+  position: absolute;
+  top: -15px;
+  left: -5px;
+  background-color: #69765a;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.number > p {
+  color: white;
+}

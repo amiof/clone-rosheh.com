@@ -1,0 +1,20 @@
+/* *{ */
+/**/
+/* border:1px solid red; */
+/**/
+/* } */
+.image{
+  width: 80%;
+}
+.details{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+/* border:1px solid red; */
+}
+.details >div > p {
+color:#69765a;
+margin: auto;
+/* border:1px solid red; */
+}

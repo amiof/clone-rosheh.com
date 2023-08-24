@@ -1,0 +1,27 @@
+.image {
+  transition: all 1s;
+  height: 291px;
+  width: 399px;
+  overflow: hidden;
+}
+.imgContainer {
+
+  height: 291px;
+  width: 399px;
+  position: relative;
+  overflow: hidden;
+}
+.time {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  padding: 10px;
+  width: 40px;
+  text-align: center;
+  line-height: 3px;
+}
+.image:hover {
+  transform: scale(1.1);
+  filter: brightness(50%); 
+}

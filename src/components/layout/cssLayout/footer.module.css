@@ -1,0 +1,46 @@
+.footer {
+  margin-top: auto;
+  width: full;
+  height: 480px;
+  background-color: #303030;
+  background-image: url("../../../roshePics/footer/footer-1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 32%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo > img {
+  width: 250px;
+  height: 102px;
+}
+.links {
+  width: 32%;
+  margin-top:140px;
+}
+.links > ul  {
+  display: felx;
+  justify-content: center;
+  align-items:center;
+}
+.links >ul>li> a {
+  color: white;
+}
+.logo2 {
+  width: 32%;
+  margin: auto;
+}
+.icons {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.icons > div {
+  margin: 10px;
+}

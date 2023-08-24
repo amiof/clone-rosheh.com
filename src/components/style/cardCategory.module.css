@@ -1,0 +1,67 @@
+.container{
+  margin: 40px 20px;
+  width: 222px;
+  height: 445px;
+  /* border: 1px solid #000000; */
+  overflow: hidden;
+  position: relative;
+}
+
+.imageholder{
+  width: 110%;
+  height: 100%;
+  /* background-image: url("../../roshePics/category/young-woman.jpg"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+
+  filter: brightness(50%); 
+}
+.image1{
+background-image: url("../../roshePics/category/young-woman.jpg");
+}
+
+.image2{
+background-image: url("../../roshePics/category/hair-min.jpeg");
+}
+
+.image3{
+background-image: url("../../roshePics/category/concept-female-perfume-white-background-1536x1024.jpg");
+}
+
+.image4{
+background-image: url("../../roshePics/category/seductive-woman-touching-face-with-makeup-brush-1536x1024.jpg");
+}
+
+.image5{
+background-image: url("../../roshePics/category/portrait-beautiful-woman-with-clear-skin-posing-with-baby-s-breath-flowers-scaled.jpg");
+}
+/* img{ */
+/*   width: 100%; */
+/*   height: 100%; */
+/*   /* background-image: url("../../roshePics/category/young-woman.jpg"); */ 
+/*   background-position: center; */
+/*   background-size: cover; */
+/*   background-repeat: no-repeat; */
+/*   transition: all 1s; */
+/* } */
+/* img:hover{ */
+/**/
+/*   transform: scale(1.2); */
+/* } */
+
+.imageholder:hover {
+  transform: scale(1.2);
+}
+.link{
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  font-size: 40px;
+}
+.ContainerLink{
+display: flex;
+justify-content: center;
+  align-items: center;
+}

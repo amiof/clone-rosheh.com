@@ -1,0 +1,71 @@
+.productContainer {
+  background-image: url("../roshePics/party/sitee-03-min-scaled.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  height: 560px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.article {
+  display: flex;
+  flex-flow: column;
+  justify-items: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.article > h2 {
+  font-weight: bolder;
+  font-size: 25px;
+}
+.articleMapContainer {
+  display: flex;
+}
+.party {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  position: relative;
+}
+.party > img {
+  width: 1200px;
+  height: 450px;
+}
+.Off {
+  position: absolute;
+  top: 20%;
+  width: 580px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Off2 {
+
+  width: 90%;
+  height: 80%;
+  border: 1px solid silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.Off2 >div {
+  display: flex;
+  flex-flow:column;
+   justify-content: center;
+  align-items: center;
+}
+.Off2 > div > button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #5e6a51;
+  color: white;
+  border-radius: 20px;
+
+}
+
+.Off2 >div> h1 {
+  color: #D2AA68;
+}
