@@ -26,7 +26,7 @@ export const counterProductSlice = createSlice({
         (product) => product.id == id,
       );
       if (existproduct) {
-        console.log(existproduct)
+        // console.log(existproduct)
         state.productsList= state.productsList.filter(
           (product) => product.id !== id,
         );
