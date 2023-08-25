@@ -48,7 +48,7 @@ const Home = () => {
           <h1>حرفه ای یاد بگیریم</h1>
           <div className={styles.articleMapContainer}>
             {articlLinks.map((articl) => (
-              <Article image={articl.link} />
+              <Article key={articl.id} image={articl.link} />
             ))}
           </div>
         </div>

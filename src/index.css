@@ -68,15 +68,22 @@
 /*   } */
 /* } */
 
+/* @font-face { */
+/*   font-family: 'woodmart-font'; */
+/*   src: url("https://rosheh.com/wp-content/themes/woodmart/fonts/woodmart-font.woff2?v=6.2.4.1") format('woff2'); */
+/*   font-weight: normal; */
+/*   font-style: normal; */
+/* } */
+
 @font-face {
-  font-family: 'woodmart-font';
-  src: url("https://rosheh.com/wp-content/themes/woodmart/fonts/woodmart-font.woff2?v=6.2.4.1") format('woff2');
+  font-family: "WoodmartFont";
+  src: url("/src/roshePics/woodmart-font.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font-family: woodmart-font, sans-serif;
+  font-family: WoodmartFont, sans-serif;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;

@@ -10,7 +10,7 @@
   /* border-bottom: 1px solid #e4e4e4; */
   box-shadow:5px 4px 4px silver;
   height: 1px;
-  width: 100vw;
+  width: calc(100vw - 20px);
 }
 /* @font-face { */
 /*   font-family: "Rosheh"; */
