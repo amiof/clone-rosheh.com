@@ -33,6 +33,12 @@ const Product = () => {
     price: selectedProduct.price,
     number: number,
   };
+
+const buyHandler = () => {
+    if (number > 0) {
+    dispatch(increment({ ...payload }))
+    }
+  }
   return (
     <>
       <div className={styles.container}>
@@ -70,7 +76,7 @@ const Product = () => {
               ></input>
               <button
                 className={styles.buy}
-                onClick={() => dispatch(increment({ ...payload }))}
+                onClick={() =>buyHandler() }
               >
                 خرید
               </button>
@@ -106,7 +112,7 @@ const Product = () => {
         </div>
       </div>
       <div className={styles.divider}></div>
-      <div style={{  textAlign:"center" , padding:"50px 200px"}}>
+      <div style={{ textAlign: "center", padding: "50px 200px" }}>
         <p>{selectedProduct.description}</p>
       </div>
     </>
