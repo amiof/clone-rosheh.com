@@ -14,7 +14,7 @@ export const counterProductSlice = createSlice({
         (product) => product.id == id,
       );
       if (!existproduct) {
-        state.productNumber++;
+        state.productNumber=state.productNumber + action.payload.number;
         state.productsList.push({ ...action.payload });
       } else {
         alert("this product availebale");
