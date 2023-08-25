@@ -30,7 +30,7 @@ export const counterProductSlice = createSlice({
         state.productsList= state.productsList.filter(
           (product) => product.id !== id,
         );
-        state.productNumber--;
+        state.productNumber= state.productNumber - existproduct.number;
       }
     },
   },
