@@ -17,7 +17,9 @@ export const counterProductSlice = createSlice({
         state.productNumber=state.productNumber + action.payload.number;
         state.productsList.push({ ...action.payload });
       } else {
-        alert("this product availebale");
+       existproduct.number =existproduct.number + action.payload.number
+        state.productNumber= existproduct.number
+        // alert("this product availebale");
       }
     },
     remove: (state, action) => {
